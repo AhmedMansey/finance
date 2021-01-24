@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sign Up
+{% endblock %}
+
+{% block main %}
+
+{{text}}
+<div class="page-body">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card">
+        <div class="card-header">
+          <h5>Register Yourself Here</h5>
+        </div>
+        <div class="card-block">
+          <div class="j-wrapper j-wrapper-640">
+            <form action="" method="post" class="j-pro" id="j-pro" novalidate="">
+            <div class="j-content">
+              <div>
+                <div>
+                  <label class="j-label ">Username</label>
+                </div>
+                <div class="j-unit">
+                  <div class="j-input">
+                    <label class="j-icon-right" for="username">
+                      <i class="icofont icofont-ui-check"></i>
+                    </label>
+                    <input type="text" id="username" name="username">
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <label class="j-label ">Password</label>
+                </div>
+                <div class="j-unit">
+                  <div class="j-input">
+                    <label class="j-icon-right" for="password">
+                      <i class="icofont icofont-lock"></i>
+                    </label>
+                    <input type="password" id="password" name="password">
+                  </div>
+                </div>
+              </div>
+            <div>
+            <div>
+              <label class="j-label ">Confirm Password</label>
+            </div>
+            <div class="j-unit">
+              <div class="j-input">
+                <label class="j-icon-right" for="c-password">
+                  <i class="icofont icofont-lock"></i>
+                </label>
+                <input type="password" id="c-password" name="c-password">
+              </div>
+              </div>
+            </div>
+
+            <div class="j-response"></div></div>
+
+            <div class="j-footer">
+              <button class="btn btn-primary" type="submit"><span><i class="fa fa-check"></i></span> Sign Up</button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
